@@ -1,0 +1,41 @@
+@media (max-width: 992px) {
+    .header-section .nav-item .nav-link {
+        padding-left: 0;
+        padding-right: 0;
+
+      }
+      .header-section .btn-outline-info {
+        display: block;
+        width: 100%;
+    }
+}
+/* ----------------------
+Maximum Width 768px
+----------------------- */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 50px;
+  }
+}
+/* ----------------------
+Maximum Width 576px
+----------------------- */
+
+@media (max-width: 576px) {
+  .hero-content .btn-default {
+    display: inline;
+  }
+  .hero-content .hero-btn {
+    flex-direction: column;
+  }
+  .hero-btn .btn-default {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .mt-576 {
+    margin-top: 20px;
+  }
+  .section-heading .h1-head {
+    font-size: 36px;
+}
+}
